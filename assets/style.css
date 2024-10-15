@@ -40,5 +40,5 @@ flex-basis: calc(33% -6rem);
     font-size: 1vw;
 }
 .cartao :hover .cartao__conteudo {
-transform: rotateY(180deg)
+transform: rotateY(180deg);
 }
