@@ -10,6 +10,7 @@ body {
 background: url(img/bg-desktop-red.webp);
 font-family: Grandstander;
 }
+
 .cartao__conteudo {
 background-color: var(--card-front-color);
 text-align: center;
@@ -17,6 +18,7 @@ height: 100%;
 transform-style: preserve-3d;
 transition:transform 300ms ease-in-out ;
 }
+
 #container {
 display: flex;
 flex-wrap: wrap;
@@ -28,8 +30,8 @@ flex-wrap: wrap;
     background-color: rgb(0, 89, 255);
     height: 20rem;
     flex-grow: 1;
-    flex-basis: calc(33% - 2rem); /* Corrigido o cálculo do espaço */
-    perspective: 1000px; /* Adiciona perspectiva para o efeito de rotação */
+    flex-basis: calc(33% - 2rem); 
+    perspective: 1000px; 
     }
     
 .cartao__conteudo p {
